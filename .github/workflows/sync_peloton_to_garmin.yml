@@ -82,6 +82,9 @@ jobs:
           },
           "Peloton": {
             "NumWorkoutsToDownload": ${{ github.event.inputs.workoutsToDownload || env.DEFAULT_WORKOUT_NUM }},
+            "ExcludeWorkoutTypes": ["meditation","OutdoorCycling","BikeBootcamp",
+            "TreadmillRunning","OutdoorRunning","TreadmillWalking","OutdoorWalking",
+            "Cardio","Circuit","Strength","Stretching","Yoga","Rowing"],
           },
           "Garmin": {
             "Upload": true,
