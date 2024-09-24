@@ -42,7 +42,7 @@ jobs:
             "IncludeTimeInHRZones": false,
             "IncludeTimeInPowerZones": false,
             "DeviceInfoSettings": {
-        "none": {
+          "none": {
           "name": "Forerunner 945",
           "unitId": 1,
           "productID": 3113,
@@ -54,7 +54,7 @@ jobs:
             "buildMinor": 0.0
           }
         },
-       "cycling": {
+         "cycling": {
           "name": "TacxTrainingAppWin",
           "unitId": 1,
           "productID": 20533,
